@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: brown;
+}
+
+.image-container{
+    text-align: center;
+}
+
+.image-container img{
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+}
+
+.btn{
+    background-color: slateblue;
+    border: none;
+    margin: 20px;
+    color: white;
+    border-radius: 5px;
+    padding: 7px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    
+}
+.btn:hover{
+    opacity: 0.9;
+}
